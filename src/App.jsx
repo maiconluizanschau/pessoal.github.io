@@ -150,15 +150,6 @@ export default function App() {
           </div>
         </Section>
 
-        <Section title="Projetos">
-          <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Sim Rede:</strong> Sistema de gestão de redes e conexões de dados</li>
-            <li><strong>Charrua:</strong> Plataforma inteligente para gestão de combustível</li>
-            <li><strong>PStop:</strong> Aplicativo de parada segura e controle logístico</li>
-            <li><strong>Simplifica:</strong> Solução ágil para digitalização de processos internos</li>
-          </ul>
-        </Section>
-
         <Section title="Formação Acadêmica">
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>MBA em Tecnologia para Negócios: AI, Data Science e Big Data</strong> –PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul</li>

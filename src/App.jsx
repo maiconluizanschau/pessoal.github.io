@@ -55,6 +55,7 @@ export default function App() {
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>MBA em Gestão e Liderança</strong> – Saint Paul Escola de Negócios</li>
           <li><strong>Bacharelado em Sistemas de Informação</strong> – Universidade de Santa Cruz do Sul (UNISC)</li>
+          <li><strong>Bacharelado em Sistemas de Informação</strong> – Universidade de Santa Cruz do Sul (UNISC)</li>
         </ul>
       </section>
 

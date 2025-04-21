@@ -66,6 +66,86 @@ export default function App() {
                 Responsável pela liderança de equipes, definição de metodologias, integração de sistemas e gestão de PDI.
                 Condução de projetos de ponta a ponta com foco em performance e inovação.
               </p>
+            </div> 
+          </div>
+          <div className="grid gap-4">
+            <div className="border rounded p-4 shadow-sm">
+              <h3 className="text-xl font-bold">Analista de Desenvolvimento Sênior</h3>
+              <p className="text-sm text-gray-500">Paraná Banco</p>
+              <p className="mt-2">
+              Responsável pelo desenvolvimento e manutenção de plataformas institucionais e integrações com sistemas como
+              Salesforce. Gestão de projetos, definição de escopo, requisitos e documentação técnica, garantindo entrega eficiente e governança.
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div className="border rounded p-4 shadow-sm">
+              <h3 className="text-xl font-bold">Desenvolvedor Full-Stack Pleno</h3>
+              <p className="text-sm text-gray-500">Hogarth Worldwide</p>
+              <p className="mt-2">
+              Desenvolvendo soluções para grandes marcas como Nestlé, Tesla e BMW. Experiência em tecnologias como PHP,
+              React.js e .NET, com foco em performance, escalabilidade e qualidade.
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div className="border rounded p-4 shadow-sm">
+              <h3 className="text-xl font-bold">Programador</h3>
+              <p className="text-sm text-gray-500">Animati netPACS</p>
+              <p className="mt-2">
+              Atuação na evolução de plataformas Java, focando na melhoria de desempenho e eficiência. 
+              Desenvolvimento de soluções para otimização na identificação de exames de raio-X, aprimorando
+              a precisão e agilidade no processamento de imagens médicas.
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div className="border rounded p-4 shadow-sm">
+              <h3 className="text-xl font-bold">Desenvolvedor de software</h3>
+              <p className="text-sm text-gray-500">Sfhera Software</p>
+              <p className="mt-2">
+              Desenvolvimento de soluções web, incluindo programas de fidelidade e PWA para controle de 
+              entradas e saídas. Liderança em gestão de projetos com Scrum e desenvolvimento
+              de interfaces e integração de APIs para websites como Delivery VIP e Ristore.
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div className="border rounded p-4 shadow-sm">
+              <h3 className="text-xl font-bold">CEO</h3>
+              <p className="text-sm text-gray-500">Cleo App</p>
+              <p className="mt-2">
+              Fui um dos vencedores do Startup Weekend Santa Maria, onde, junto com uma equipe de 
+              empreendedores, criamos uma inovadora rede de relacionamento voltada para o público feminino.
+              Desde então, tenho liderado o planejamento, execução e desenvolvimento do aplicativo da Cleo,
+              uma startup que conquistou investimento anjo e passou por um programa de aceleração com a
+              Semente Negócios, em Porto Alegre - RS. Minha expertise tem sido fundamental para acelerar o
+              crescimento e impactar positivamente o mercado.
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div className="border rounded p-4 shadow-sm">
+              <h3 className="text-xl font-bold">Programador</h3>
+              <p className="text-sm text-gray-500">Mercanteria</p>
+              <p className="mt-2">
+              Atuei no desenvolvimento e evolução da plataforma Mercateria, um e-commerce inovador que 
+              permite pedidos online com entrega agendada. Responsável por melhorias contínuas, testes com
+              usuários finais e decisões técnicas e funcionais para garantir uma experiência fluida e de
+              valor para o cliente.
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div className="border rounded p-4 shadow-sm">
+              <h3 className="text-xl font-bold">Programador</h3>
+              <p className="text-sm text-gray-500">I3 Tecnologia</p>
+              <p className="mt-2">
+              Desenvolvi soluções tecnológicas para segurança, automação e treinamento especializado, 
+              incluindo sistemas de portaria virtual e plataformas de simulação para tropas militares e 
+              forças de segurança. Trabalhei com tecnologias como ASP.NET, C#, e PostgreSQL para 
+              entregar soluções robustas e seguras com alto nível de exigência técnica.
+              </p>
             </div>
           </div>
         </Section>

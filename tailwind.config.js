@@ -1,9 +1,13 @@
-module.exports = {
-  content: [
-    "./src/**/*.{html,js,jsx,ts,tsx}", // Certifique-se de incluir a pasta onde seu código React está
-  ],
+// tailwind.config.js
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#2563eb",   // azul (pode personalizar)
+        secondary: "#0ea5e9", // azul claro
+      },
+    },
   },
   plugins: [],
-}
+};

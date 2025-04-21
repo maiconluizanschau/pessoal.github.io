@@ -21,22 +21,47 @@ export default function App() {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4">Sobre Mim</h2>
-        <p>
-          Profissional com ampla experiência em desenvolvimento de software, liderança técnica e entrega de soluções escaláveis.
-          Atuo como Tech Lead coordenando projetos como Sim Rede, Charrua, PStop e Simplifica. Minha abordagem combina visão estratégica,
-          conhecimento técnico e foco em pessoas para gerar resultados reais.
-        </p>
-      </section>
+  <h2 className="text-2xl font-semibold mb-4">Sobre Mim</h2>
+  <div className="space-y-4 text-justify">
+    <p>
+      Profissional com sólida experiência na liderança técnica e desenvolvimento de projetos em setores como Bancos, Agências, Saúde, Software Houses e Aplicativos de Relacionamento.
+      Especialista em impulsionar a transformação digital, otimizar processos e entregar soluções tecnológicas de alto impacto.
+    </p>
+    <ul className="list-disc pl-6 space-y-1">
+      <li><strong>Versatilidade Multissetorial:</strong> Atuação bem-sucedida em ambientes diversos, com rápida adaptação a diferentes contextos.</li>
+      <li><strong>Gestão de Projetos:</strong> Liderança de iniciativas estratégicas com foco em eficiência, inovação e resultados mensuráveis.</li>
+      <li><strong>Transformação Digital:</strong> Condução de projetos de modernização e automação de processos.</li>
+      <li><strong>Metodologias Ágeis:</strong> Promoção de práticas ágeis e cultura colaborativa de desenvolvimento.</li>
+      <li><strong>Integração TI-Negócio:</strong> Facilitação de comunicação entre áreas técnicas e executivas para decisões assertivas.</li>
+      <li><strong>Foco em Rentabilidade:</strong> Planejamento estratégico para maximizar retorno de produtos e serviços.</li>
+      <li><strong>Visão Cliente-Centrada:</strong> Criação de soluções alinhadas às necessidades reais dos usuários e do negócio.</li>
+      <li><strong>Relacionamento e Liderança:</strong> Capacidade comprovada de construir relações sólidas com equipes, fornecedores e stakeholders.</li>
+    </ul>
+    <p>
+      Se sua organização busca um líder técnico com visão estratégica, foco em inovação e entrega de valor, estou pronto para ajudar a transformar ideias em resultados.
+    </p>
+  </div>
+</section>
+
 
       <section>
         <h2 className="text-2xl font-semibold mb-4">Experiência</h2>
         <div className="border rounded p-4">
-          <h3 className="text-xl font-bold">Líder Técnico e Desenvolvedor Full Stack</h3>
-          <p className="text-sm text-gray-500">Sim Rede, Charrua, PStop, Simplifica</p>
+          <h3 className="text-xl font-bold">Líder Técnico</h3>
+          <p className="text-sm text-gray-500">Grupo Argenta</p>
           <p className="mt-2">
             Responsável pela liderança de equipes, definição de metodologias, integração de sistemas e gestão de PDI.
             Condução de projetos de ponta a ponta com foco em performance e inovação.
+         
+          </p>
+        </div>
+        <div className="border rounded p-4">
+          <h3 className="text-xl font-bold">Líder Técnico</h3>
+          <p className="text-sm text-gray-500">Grupo Argenta</p>
+          <p className="mt-2">
+            Responsável pela liderança de equipes, definição de metodologias, integração de sistemas e gestão de PDI.
+            Condução de projetos de ponta a ponta com foco em performance e inovação.
+         
           </p>
         </div>
       </section>
@@ -54,8 +79,10 @@ export default function App() {
       <section>
         <h2 className="text-2xl font-semibold mb-4">Formação Acadêmica</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li><strong>MBA em Gestão e Liderança</strong> – Saint Paul Escola de Negócios</li>
-          <li><strong>Bacharelado em Sistemas de Informação</strong> – Universidade de Santa Cruz do Sul (UNISC)</li>
+          <li><strong>MBA em Tecnologia para Negócios: AI, Data Science e Big Data</strong> –PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul</li>
+          <li><strong>Pós:Graduação: Business Intelligence & Analytics</strong> –Escola Conquer</li>
+          <li><strong>Pós:Graduação: Tecnologias da informação e comunicação aplicadas a educação</strong> –Universidade Federal de Santa Maria (UFSM)</li>
+          <li><strong>Graduação: Sistemas para Internet</strong> –Universidade Federal de Santa Maria (UFSM)</li>
         </ul>
       </section>
 

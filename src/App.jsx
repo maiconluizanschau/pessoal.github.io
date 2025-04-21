@@ -53,9 +53,10 @@ export default function App() {
       <section>
         <h2 className="text-2xl font-semibold mb-4">Formação Acadêmica</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li><strong>MBA em Gestão e Liderança</strong> – Saint Paul Escola de Negócios</li>
-          <li><strong>Bacharelado em Sistemas de Informação</strong> – Universidade de Santa Cruz do Sul (UNISC)</li>
-          <li><strong>Bacharelado em Sistemas de Informação</strong> – Universidade de Santa Cruz do Sul (UNISC)</li>
+          <li><strong>MBA em Tecnologia para Negócios: AI, Data Science e Big Data, Tecnologia da Informação</strong> – PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul</li>
+          <li><strong>Pós-graduação: Business Intelligence & AnalyticsPós-graduação Lato Sensu - Especialização, Business Intelligence & Analytics</strong>Escola Conquer</li>
+          <li><strong>Pós-graduação: Tecnologias da informação e comunicação aplicadas a educação</strong> – Universidade Federal de Santa Maria (UFSM)</li>
+          <li><strong>Graduação: Sistemas para Internet</strong> – Universidade Federal de Santa Maria (UFSM)</li>
         </ul>
       </section>
 

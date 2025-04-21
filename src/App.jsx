@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Linkedin, Whatsapp} from "lucide-react";
+import { Mail, Linkedin, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import './index.css'; // ou './App.css', dependendo de onde você colocou os estilos
 
@@ -36,11 +36,11 @@ export default function App() {
       <Linkedin size={16} /> LinkedIn
     </button>
   </a>
-  <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer">
-    <button className="bg-green-500 text-white px-4 py-2 rounded flex items-center gap-2">
-      <Whatsapp size={16} /> WhatsApp
-    </button>
-  </a>
+  <a href="https://wa.me/5555996899593" target="_blank" rel="noopener noreferrer">
+  <button className="bg-green-500 text-white px-4 py-2 rounded flex items-center gap-2">
+    <MessageCircle size={16} /> WhatsApp
+  </button>
+</a>
 </div>
 
         </header>

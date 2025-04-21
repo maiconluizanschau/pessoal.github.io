@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/maiconluizanschau/',
+  base: 'https://maiconluizanschau.github.io/pessoal.github.io/',
   plugins: [react()],
 });

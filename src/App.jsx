@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Whatsapp} from "lucide-react";
 import { motion } from "framer-motion";
 import './index.css'; // ou './App.css', dependendo de onde você colocou os estilos
 
@@ -26,17 +26,23 @@ export default function App() {
             Tech Lead | Especialista em Soluções Digitais | Liderança em Produtos e Equipes de Alta Performance
           </p>
           <div className="flex justify-center gap-4">
-            <a href="mailto:maiconluizanschau@gmail.com" target="_blank" rel="noopener noreferrer">
-              <button className="bg-primary text-white px-4 py-2 rounded flex items-center gap-2">
-                <Mail size={16} /> E-mail
-              </button>
-            </a>
-            <a href="https://www.linkedin.com/in/maicon-luiz-anschau/" target="_blank" rel="noopener noreferrer">
-              <button className="bg-secondary text-white px-4 py-2 rounded flex items-center gap-2">
-                <Linkedin size={16} /> LinkedIn
-              </button>
-            </a>
-          </div>
+  <a href="mailto:maiconluizanschau@gmail.com" target="_blank" rel="noopener noreferrer">
+    <button className="bg-primary text-white px-4 py-2 rounded flex items-center gap-2">
+      <Mail size={16} /> E-mail
+    </button>
+  </a>
+  <a href="https://www.linkedin.com/in/maicon-luiz-anschau/" target="_blank" rel="noopener noreferrer">
+    <button className="bg-secondary text-white px-4 py-2 rounded flex items-center gap-2">
+      <Linkedin size={16} /> LinkedIn
+    </button>
+  </a>
+  <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer">
+    <button className="bg-green-500 text-white px-4 py-2 rounded flex items-center gap-2">
+      <Whatsapp size={16} /> WhatsApp
+    </button>
+  </a>
+</div>
+
         </header>
 
         <Section title="Sobre Mim">
